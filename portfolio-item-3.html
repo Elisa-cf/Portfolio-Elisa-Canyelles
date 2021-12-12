@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevJane Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"> <img src="img/notelisa3.png" alt="" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Birthday <strong>Reminder App</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Congratulate your loved ones
+      </p>
+      <img src="img/portfolio-birthday.jpg" alt="" class="intro__img" />
+    </section>
+    <div class="button_portfolio_item">
+      <button class="btn">
+        <a href="https://anniversary-reminder.netlify.app/" target="blank"
+          >See the Web</a
+        >
+      </button>
+    </div>
+    <div class="portfolio-item-individual">
+      <h4 class="titles_portfolio_item">General info:</h4>
+      <p>
+        <a href="https://anniversary-reminder.netlify.app/" target="blank"
+          ><b>The Birthday Reminder App</b></a
+        >
+        is a front-end React application with a local database created with
+        Node.js Expres.js and mySQL.
+      </p>
+      <p>
+        In this application you can add the birthday of your friends. Add their
+        names, years and an avatar or a picture.
+      </p>
+      <p>
+        Do you have a special friend? Add his or her birthday as a important by
+        clicking on the checkbox.
+      </p>
+      <p>
+        You can also double click on one of the birthdays that you have already
+        added on the list, and highlight it as important.
+      </p>
+      <p>
+        Do you need to delete the full list? Click on the button 'Clear All' or
+        delete one by one by clicking on the cross.
+      </p>
+      <h4 class="titles_portfolio_item">Front End toolbox:</h4>
+      <ul class="list_tools">
+        <li>React Hooks</li>
+        <li>React UseEffect</li>
+        <li>Styled Components</li>
+        <li>Axios</li>
+      </ul>
+      <h4 class="titles_portfolio_item">Back End toolbox:</h4>
+      <ul class="list_tools">
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>mySQL</li>
+        <li>Joi for data validation</li>
+      </ul>
+
+      <h4 class="titles_portfolio_item">Deployment method:</h4>
+      <p>I selected Netlify as a deployment method.</p>
+      <h4 class="titles_portfolio_item">GitHub repository:</h4>
+      <p>
+        Check out the
+        <a href="https://github.com/Elisa-cf/birthday-reminder" target="blank">
+          GitHub repository</a
+        >.
+      </p>
+      <h4 class="titles_portfolio_item">Work in progress:</h4>
+      <p>
+        Creating a local database was a really good practise to understand some
+        basic concepts about the back-end of an application. But the real idea
+        is to put the local database into a cloud. This way the application will
+        be available to everyone without having to install the backend locally.
+      </p>
+    </div>
+
+    <!--My work-->
+    <footer class="footer">
+      <a href="mailto:elisacanyelles@gmail.com" class="footer__link"
+        >elisacanyelles@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Elisa-cf"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/elisa-canyelles/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
