@@ -7,8 +7,8 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondary: 'Source Code Pro', monospace;
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -234,7 +234,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -268,8 +268,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      'img title'
-      'img subtitle';
+      "img title"
+      "img subtitle";
     grid-template-columns: min-content max-content;
   }
 
@@ -310,7 +310,7 @@ header {
 /* to add the line under the title services(what I do) */
 
 .section__title--services::after {
-  content: '';
+  content: "";
   display: block;
   width: 3em;
   height: 1px;
@@ -355,9 +355,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      'title img'
-      'subtitle img'
-      'text img';
+      "title img"
+      "subtitle img"
+      "text img";
     grid-column-gap: 2em;
   }
 
@@ -471,4 +471,16 @@ header {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.list_tools {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_portfolio_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
