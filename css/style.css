@@ -484,3 +484,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.titles_portfolio_item {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
