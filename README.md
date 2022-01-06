@@ -1,6 +1,6 @@
 # Portfolio-Elisa-Canyelles
 
-My portfolio where you can find information about me and I upload all the projects I have worked on.
+My portfolio where you can find information about me and where I upload all the projects I have worked on.
 
 This portfolio was created using HTML, CSS and JS.
 
