@@ -518,7 +518,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: auto;
+  margin: 1rem auto;
   transition: transform 500ms ease-in-out;
 }
 
