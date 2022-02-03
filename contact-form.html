@@ -68,7 +68,7 @@
     </header>
 
 <div class="container">
-  <form name="contact" action="/action_page.php" class="form" data-netlify="true">
+  <form name="contact" action="/action_page.php" class="form" data-netlify="true" data-netlify-recaptcha="true">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name">
 
@@ -81,7 +81,7 @@
 
     <label for="subject">Message</label>
     <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
+    <div data-netlify-recaptcha="true"></div>
     <input type="submit" value="Submit">
   </form>
 </div>
