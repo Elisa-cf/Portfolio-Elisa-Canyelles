@@ -145,6 +145,10 @@ h3 {
   margin-bottom: 1em;
 }
 
+b {
+  color: #551a8b;
+}
+
 /* header */
 
 header {
@@ -554,5 +558,5 @@ input[type=submit]:hover {
 }
 
 .body-form {
-  background-color: #FFF7F8;
-}
+  background-color: #16E0BD;
+} 
