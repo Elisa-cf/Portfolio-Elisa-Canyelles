@@ -10,3 +10,32 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+
+
+
+//showing card button when mouseover:
+
+//We create the variables for container and for my-work-button
+const container = document.querySelectorAll('.container');
+const workBtn = document.querySelectorAll('.my-work-button');
+
+
+container.forEach(el => {
+    el.addEventListener('mouseover', (e) => {
+       workBtn.forEach(element => {
+    element.style.visibility ="visible"
+})
+    })
+})
+
+container.forEach(el => {
+    el.addEventListener('mouseleave', (e) => {
+        workBtn.forEach(element => {
+            element.style.visibility = "hidden"
+        })
+    })
+})
+
+
+
