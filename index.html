@@ -1,225 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!--metatags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Elisa Canyelles Portfolio</title>
+    <meta name="title" content="Elisa Canyelles Portfolio" />
+    <meta
+      name="description"
+      content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 "
+    />
 
-<head>
-      <!--metatags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Primary Meta Tags -->
-<title>Elisa Canyelles Portfolio</title>
-<meta name="title" content="Elisa Canyelles Portfolio">
-<meta name="description" content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 ">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://elisa-canyelles-portfolio.netlify.app/"
+    />
+    <meta property="og:title" content="Elisa Canyelles Portfolio" />
+    <meta
+      property="og:description"
+      content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 "
+    />
+    <meta property="og:image" content="./img/elisa-1.jpg" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://elisa-canyelles-portfolio.netlify.app/">
-<meta property="og:title" content="Elisa Canyelles Portfolio">
-<meta property="og:description" content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 ">
-<meta property="og:image" content="./img/elisa-1.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://elisa-canyelles-portfolio.netlify.app/"
+    />
+    <meta property="twitter:title" content="Elisa Canyelles Portfolio" />
+    <meta
+      property="twitter:description"
+      content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 "
+    />
+    <meta property="twitter:image" content="./img/elisa-1.jpg" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://elisa-canyelles-portfolio.netlify.app/">
-<meta property="twitter:title" content="Elisa Canyelles Portfolio">
-<meta property="twitter:description" content="SEO, Copywriter and now... ➡ Junior Web Developer! ⬅ it's never too late to learn something new 👩‍🎓 Check my portfolio with a selection of my work 👩‍💻 ">
-<meta property="twitter:image" content="./img/elisa-1.jpg">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> <!--to normalise css for diferent kind of browsers-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> <!--font-awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <!--to normalise css for diferent kind of browsers-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <!--font-awesome link-->
 
     <!-- google fonts link -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:600,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">    
-    
-    <link rel="stylesheet" href="css/style.css"> <!--always to integrated the css file in the index file-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:600,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!--always to integrated the css file in the index file-->
     <!---favicon-->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-
-        <div class="logo">
-            <img src="img/notelisa3.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
+      <div class="logo">
+        <img src="img/notelisa3.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
         <!-- aria-label is used to says why a button is being used for. Its clearer when you go back to the code -->
         <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
+      </button>
+      <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-            <li class="nav__item"><a href="contact-form.html" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact-form.html" class="nav__link">Contact</a>
+          </li>
         </ul>
-        </nav>
-        <!--__ (nav__list) says that nav__list is a child from nav /it's a part of something -->
+      </nav>
+      <!--__ (nav__list) says that nav__list is a child from nav /it's a part of something -->
     </header>
-
 
     <!--Introduction-->
 
     <section class="intro" id="home">
-        <!--id for anchors or js functionalities / class for style-->
-        <h1 class="section__title section__title--intro">Hi, I am <strong>Elisa Canyelles</strong></h1>
-        <p class="section__subtitle section__subtitle--intro">Junior Web Developer</p>
-        <img src="img/elisa-1.jpg" alt="a picture of Elisa Canyelles smiling" class="intro__img">
+      <!--id for anchors or js functionalities / class for style-->
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Elisa Canyelles</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full Stack Web Developer
+      </p>
+      <img
+        src="img/elisa-1.jpg"
+        alt="a picture of Elisa Canyelles smiling"
+        class="intro__img"
+      />
     </section>
 
     <!--My services-->
 
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Front-End</h3>
-                <p>I can create complex and dynamic webs applications with
-                    responsive design. I have extensive knowledge in Javascript, HTML, CSS, React.js and Node.js. 
-                    But I also want to learn much more and discover other frameworks, libraries and front-end tools.</p>
-            </div>
-            <!--/ service-->
-            <div class="service">
-                <h3>Back-End</h3>
-                <p> I have experience using Express.js in order to create RESTful APIs. 
-                    I can also create and use databases with mySQL. </p>
-            </div>
-            <!--/ service-->
-            <div class="service">
-                <h3>Workflow</h3>
-                <p> I can totally work in teams and collaborate using Git & GitHub, 
-                    analyse client needs using agile methodolgies, such as Scrum and Kanban, 
-                    plan and track development tasks using Jira and Trello. 
-                    </p>
-            </div>
-            <!--/ service-->
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Front-End</h3>
+          <p>
+            As a dedicated Frontend Developer, I craft captivating web
+            applications using React.js and Vue.js. With React Hooks and Redux,
+            I build intuitive interfaces and maintain flexible styles using
+            Styled Components. In Vue.js, I leverage Pinia for state management
+            and Vue Router for seamless navigation. My experience extends to
+            making API calls with both RESTful APIs and GraphQL, enabling
+            dynamic interactions with external services. To optimize my
+            workflow, I rely on Vite and Vitest, creating delightful designs
+            with Tailwind CSS, SASS, and PostCSS.
+          </p>
         </div>
-        <!--/ services-->
+        <!--/ service-->
+        <div class="service">
+          <h3>Back-End</h3>
+          <p>
+            As a Backend Developer, I specialize in crafting powerful web
+            solutions with a focus on RESTful APIs using Express.js. My
+            expertise spans managing databases like MySQL and MongoDB, and I'm
+            skilled in exploring flexible data manipulation with GraphQL.
+            Powered by Node.js, I deliver efficient and scalable applications,
+            while harnessing the capabilities of AWS and Firebase for robust and
+            reliable backend infrastructure.
+          </p>
+        </div>
+        <!--/ service-->
+        <div class="service">
+          <h3>Workflow</h3>
+          <p>
+            I'm skilled in team collaboration using Git & GitHub. Agile
+            methodologies like Scrum and Kanban guide my approach to analyzing
+            client needs. For efficient planning and tracking, I rely on Jira,
+            Confluence, and Miro. Additionally, I implement Continuous
+            Integration (CI) and Continuous Delivery (CD) practices to
+            streamline development processes.
+          </p>
+        </div>
+        <!--/ service-->
+      </div>
+      <!--/ services-->
 
-        <a href="#work" class="btn">My Work</a>
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!--About Me-->
 
     <section class="about-me" id="about">
-        <h2 ckass="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Junior Web Developer</p>
+      <h2 ckass="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">What am I doing</p>
 
-        <div class="about-me__body">
-            <p>I'm a passionate, creative and multi-potencial skilled junior web developer. I set my new skill target a few years
-                ago in digital technologies. Before changing my career path to code, I was SEO, copywriter and entrepreneur of my own business 
-                where I created more than 70 niche websites using Wordpress.</p><p>
-                After finishing my studies of web development, 
-                front end is the part that I find most attractive and in which I want to deep in, 
-                grow as a dev and learn a lot more. However my curiosity knows no bounds and I am also exploring the back end of web development.
-            </p>
-            <p> In order to provide the best user experience, I like creating beautiful, interactive and functional interfaces. 
-                I also stand for quality, scalability and optimization of web apps following always Gitflow and agile methodologies.
-                I love teamwork. To me learning is always fun, but learning and growing together as a team is another level of fun.
-                </p>
-        </div>
-        <img src="img/elisa-2.jpg" alt="Elisa leaning against a wall" class="about-me__img">
+      <div class="about-me__body">
+        <p>
+          Passionate about crafting powerful web solutions, I set my sights on
+          digital technologies, leaving behind my previous roles in Worpress Web
+          Creator, SEO, copywriting and entrepreneurship, where I successfully
+          managed and created over 70 niche websites. After finalizing my
+          bootcamp in full-stack development, I eagerly started my journey as a
+          developer.
+        </p>
+
+        <p>
+          Currently, I work as a full stack developer in a cross-functional team
+          for a German company named BurdaForward. I played a pivotal role in
+          the end-to-end process of building the MVP of "Bunte Moments," a web
+          and mobile app for famous German influencers and content creators on
+          Bunte.de. Together, we crafted this exciting new product from scratch,
+          allowing users to enjoy exclusive content uploaded by their favorite
+          influencers.
+        </p>
+        <p>
+          In my current role, I take on a wide range of responsibilities,
+          including implementing new features, bug fixing, and conducting
+          thorough testing of the web and app with each release. Leveraging a
+          versatile ToolBox that includes Vue.js, Typescript, Dart/Flutter, BLOC
+          management, REST API, Node.js, Express.js, MongoDB, Tealium, and
+          Kibana, I am dedicated to ensuring the application's quality,
+          scalability, and optimization.
+        </p>
+      </div>
+      <img
+        src="img/elisa-2.jpg"
+        alt="Elisa leaning against a wall"
+        class="about-me__img"
+      />
     </section>
 
-    <!--My work-->
+    <!-- My Work -->
 
-            </section>
-        
-        </section>
-        
-        <!-- My Work -->
-        
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-        
-            <div class="portfolio">
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
-                <!-- Portfolio item 07 -->
-                <div class="container" id="container">
-                    <a href="portfolio-item-7.html">
-                        <img src="img/portfolio-pizzeria.png" alt="">
-                        <button class="my-work-button" id="my-work-button">See more</button>
-                    </a>
-                </div>
-        
-                <!-- Portfolio item 05 -->
-                <div class="container"
-                 id="container">
-                    <a href="portfolio-item-5.html">
-                        <img src="img/portfolio-ierp.jpg" alt="">
-                        <button class="my-work-button" id="my-work-button">See more</button>
-                    </a>
-                </div>
-    
+      <div class="portfolio">
+        <!-- Portfolio item 07 -->
+        <div class="container" id="container">
+          <a href="portfolio-item-7.html">
+            <img src="img/portfolio-pizzeria.png" alt="" />
+            <button class="my-work-button" id="my-work-button">See more</button>
+          </a>
+        </div>
 
-                <!-- Portfolio item 01 -->
-                <div class="container">
-                    <a href="portfolio-item.html">
-                        <img src="img/portfolio-film-hero.jpg" alt="">
-                        <button class="my-work-button">See more</button>
-                    </a>
-                </div>
-        
-        
-                <!-- Portfolio item 03 -->
-                <div class="container">
-                    <a href="portfolio-item-3.html">
-                        <img src="img/portfolio-birthday2.jpg" alt="">
-                        <button class="my-work-button">See more</button>
-                    </a>
-                </div>
-                
+        <!-- Portfolio item 05 -->
+        <div class="container" id="container">
+          <a href="portfolio-item-5.html">
+            <img src="img/portfolio-ierp.jpg" alt="" />
+            <button class="my-work-button" id="my-work-button">See more</button>
+          </a>
+        </div>
 
-                <!-- Portfolio item 06 -->
-                <div class="container">
-                    <a href="portfolio-item-6.html">
-                        <img src="img/portfolio-hotel.jpg" alt="">
-                        <button class="my-work-button">See more</button>
-                    </a>
-                </div>
+        <!-- Portfolio item 01 -->
+        <div class="container">
+          <a href="portfolio-item.html">
+            <img src="img/portfolio-film-hero.jpg" alt="" />
+            <button class="my-work-button">See more</button>
+          </a>
+        </div>
 
-                <!-- Portfolio item 02 -->
-                <div class="container">
-                    <a href="portfolio-item-2.html">
-                        <img src="img/portfolio-harry-potter.jpg" alt="">
-                        <button class="my-work-button">See more</button>
-                    </a>
-                </div>
+        <!-- Portfolio item 03 -->
+        <div class="container">
+          <a href="portfolio-item-3.html">
+            <img src="img/portfolio-birthday2.jpg" alt="" />
+            <button class="my-work-button">See more</button>
+          </a>
+        </div>
 
-        
-        
-                <!-- Portfolio item 04 -->
-                <div class="container">
-                    <a href="portfolio-item-4.html">
-                        <img src="img/portfolio-robot-piscina.jpg" alt="">
-                        <button class="my-work-button">See more</button>
-                    </a>
-                </div>
-        
-            </div>
-        </section>
+        <!-- Portfolio item 06 -->
+        <div class="container">
+          <a href="portfolio-item-6.html">
+            <img src="img/portfolio-hotel.jpg" alt="" />
+            <button class="my-work-button">See more</button>
+          </a>
+        </div>
 
+        <!-- Portfolio item 02 -->
+        <div class="container">
+          <a href="portfolio-item-2.html">
+            <img src="img/portfolio-harry-potter.jpg" alt="" />
+            <button class="my-work-button">See more</button>
+          </a>
+        </div>
 
-        <!--Footer-->
+        <!-- Portfolio item 04 -->
+        <div class="container">
+          <a href="portfolio-item-4.html">
+            <img src="img/portfolio-robot-piscina.jpg" alt="" />
+            <button class="my-work-button">See more</button>
+          </a>
+        </div>
+      </div>
+    </section>
 
-        <footer class="footer">
-            <a href="mailto:elisacanyelles@gmail.com" class="footer__link">elisacanyelles@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Elisa-cf" target="blank"><i class="fab fa-github"></i></a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/elisa-canyelles/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-        </footer>          
-            <script src="js/index.js"></script>
- 
-</body>
+    <!--Footer-->
 
+    <footer class="footer">
+      <a href="mailto:elisacanyelles@gmail.com" class="footer__link"
+        >elisacanyelles@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Elisa-cf"
+            target="blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/elisa-canyelles/"
+            target="blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
 </html>
