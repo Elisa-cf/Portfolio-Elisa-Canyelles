@@ -1,16 +1,14 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-
-
+  box-sizing: border-box;
 }
 
 /* Custom Properties, update these for your own design */
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -74,8 +72,8 @@ strong {
 
 .btn {
   display: flex;
- justify-content: center;
-  background-color: #16E0BD;
+  justify-content: center;
+  background-color: #16e0bd;
   text-decoration: none;
   color: white;
   padding: 12px 20px;
@@ -97,6 +95,21 @@ strong {
   transform: scale(1.1);
 }
 
+.button-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .button-flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 
 /* Typography */
 
@@ -248,7 +261,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -282,8 +295,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      "img title"
-      "img subtitle";
+      'img title'
+      'img subtitle';
     grid-template-columns: min-content max-content;
   }
 
@@ -324,7 +337,7 @@ header {
 /* to add the line under the title services(what I do) */
 
 .section__title--services::after {
-  content: "";
+  content: '';
   display: block;
   width: 3em;
   height: 1px;
@@ -369,9 +382,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
+      'title img'
+      'subtitle img'
+      'text img';
     grid-column-gap: 2em;
   }
 
@@ -402,18 +415,15 @@ header {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
-
-
 }
- .portfolio {
+.portfolio {
   margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
- }
-
+}
 
 /* button cards hover  */
 .container {
@@ -458,7 +468,6 @@ header {
   opacity: 1;
 }
 /* button cards hover  */
-
 
 /* footer */
 
@@ -526,6 +535,13 @@ header {
 
 .button_portfolio_item {
   text-decoration: none;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .button_portfolio_item {
+    margin-left: 20px;
+  }
 }
 
 .titles_portfolio_item {
@@ -536,7 +552,9 @@ header {
 
 /* contact-form */
 
-input[type=text], input[type=email], textarea {
+input[type='text'],
+input[type='email'],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -545,19 +563,18 @@ input[type=text], input[type=email], textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-
 }
 
 .form label {
   color: white;
-    font-weight: var(--fw-bold);
-    font-size: 1.3rem;
+  font-weight: var(--fw-bold);
+  font-size: 1.3rem;
 }
 
-input[type=submit] {
+input[type='submit'] {
   display: flex;
   align-items: center;
- background-color: #319177;
+  background-color: #319177;
   color: white;
   padding: 15px 40px;
   border: none;
@@ -565,13 +582,13 @@ input[type=submit] {
   cursor: pointer;
   margin: 1rem auto;
   transition: transform 300ms ease-in-out;
-   text-transform: uppercase;
-   font-size: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
 }
 
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #ff4154;
   transform: scale(1.1);
 }
@@ -585,12 +602,11 @@ input[type=submit]:hover {
   border: 1px groove #319177;
 }
 
-
 .captcha {
   margin: auto;
   margin-bottom: 1rem;
 }
 
 .body-form {
-  background-color: #16E0BD;
+  background-color: #16e0bd;
 }
